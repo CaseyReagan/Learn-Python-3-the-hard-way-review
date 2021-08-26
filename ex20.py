@@ -9,7 +9,7 @@ def rewind(f):		#倒带，指光标回到原点
 	f.seek(0)		#用seek（0）回到文件第一个字符
 
 def print_a_line(line_count,f):
-	print(line_count, f.readline())		#按行读取文件
+	print(line_count, f.readline())		#按行读取文件内容
 
 current_file = open(input_file)
 
