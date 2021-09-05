@@ -32,3 +32,8 @@ def test_map():
 	assert_equal(start.go('down').go('up'), start)
 '''
 
+from nose.tools import *
+from ex48 import lexicon
+
+def test_directions():
+	assert_equal(lexicon.scan("north"),[('direction'),('north')])
