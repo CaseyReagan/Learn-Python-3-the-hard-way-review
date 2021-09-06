@@ -1,6 +1,16 @@
 WORD_TYPE = {
 	"north" : "direction",
-
+	"south" : "direction",
+	"east" : "direction",
+	"west" : "direction",
+	"go" : "verb",
+	"eat" : "verb",
+	"kill" : "verb",
+	"the" : "stop",
+	"in" : "stop",
+	"of" : "stop",
+	"bear" : "noun",
+	"princess" : "noun",
 }
 
 def convert_number(s):
