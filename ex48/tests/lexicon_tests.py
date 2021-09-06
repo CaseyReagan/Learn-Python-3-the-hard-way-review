@@ -41,6 +41,7 @@ def test_directions():
 	assert_equal(result,[('direction','north'),
 						('direction','south'),
 						('direction','east')])
+
 def test_verbs():
 	assert_equal(lexicon.scan("go"),[('verb','go')])
 	result = lexicon.scan("go kill eat")
@@ -66,3 +67,10 @@ def test_numbers():
 	result = lexicon.scan("33 4324")
 	assert_equal(result,[('number',33),
 						('number',4324)])
+
+def test_errors():
+	assert_equal(lexicon.scan("ADDFDSF"),[('error','ADDFDSF')])
+	result = lexicon.scan("bear IAS princess")
+	assert_equal(result,[('noun','bear'),
+						('error','IAS'),
+						('noun','princess')])
