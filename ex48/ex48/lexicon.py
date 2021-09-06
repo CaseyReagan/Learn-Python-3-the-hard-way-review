@@ -33,7 +33,7 @@ def scan(sentence):
 			if number != None:
 				result.append(('number',number))
 			else:
-				result.append(('error'),word)
+				result.append(('error',word))
 
 		else:
 			result.append((word_type,word))
