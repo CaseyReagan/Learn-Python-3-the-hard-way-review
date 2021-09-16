@@ -20,3 +20,9 @@ w = "This is the left side of..."
 e = "a string with a right side."
 
 print(w + e)
+
+## my code for practise
+
+print(x + y)
+print(joke_evaluation,hilarious)
+print(joke_evaluation.format(hilarious))
