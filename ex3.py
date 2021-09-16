@@ -23,3 +23,7 @@ print("Is it greater or equal?", 5 >= -2)
 print("Is it less or equal?",5 <= -2)
 
 #printf{"%d",24-8};
+
+## my code for practise
+
+print("printing",5+3)
