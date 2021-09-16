@@ -20,3 +20,14 @@ end12 = "r"
 print(end1 + end2 + end3 + end4 + end5 + end6,end = ' ')
 #print(end1 + end2 + end3 + end4 + end5 + end6)
 print(end7 + end8 + end9 + end10 +end11 +end12)
+
+## my code for practise
+
+print("hello")
+print("hello again")
+
+print("hello",end = ' ')
+print("hello again")
+
+print("hello",end = ' s ')
+print("hello again")
