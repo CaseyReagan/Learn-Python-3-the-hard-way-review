@@ -10,3 +10,11 @@ print(formatter.format(
 	"Maybe a poem",
 	"Or a song about fear"
 	))
+
+## my code for practise
+print(formatter.format(
+	"Try your",
+	"fdasf",
+	"fas",
+	"gggr"
+	))
