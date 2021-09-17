@@ -6,3 +6,9 @@ print("How much do you weigh?", end=' ')
 weight = input()
 
 print(f"So, you're {age} old, {height} tall and {weight} heavy.")
+
+
+## my code for practise
+
+name = input("enter your name:> ")
+print("your name is",name)
